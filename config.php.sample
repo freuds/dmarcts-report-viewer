@@ -4,9 +4,13 @@
 // ### configuration ##################################################
 // ####################################################################
 
-$dbhost="localhost";
-$dbname="dmarc";
-$dbuser="dmarc";
-$dbpass="xxx";
+$dbhost="xxx.xxx.xxx.xxx";
+$dbname="opendmarc";
+$dbuser="opendmarc";
+$dbpass="opendmarc";
 
+$urlhomebase = "webdmarc.local";
+
+// retention : set the number of days of displaying report
+define("MYSQL_DAY_RETENTION", "7");
 ?>

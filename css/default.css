@@ -1,0 +1,157 @@
+body {
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif !important;
+        font-size: 12px !important;
+        margin: 10px 0;
+        padding: 10px;
+        background: #2C3135 url("../pics/bg.gif") repeat-x scroll 0 0;
+        color: #585880;
+}
+
+fieldset { margin: 5px 8px; padding: 2em; border: 1px solid #D2D2D2; }
+legend { color: #585880; font-weight: bold; font-size: 30px; }
+
+/*********************/
+/* habillage global  */
+/*********************/
+.top-global a { position: absolute; top: 0; display: block; text-indent: -5000em; width: 110px; height: 25px; margin-bottom: 1.5em; }
+
+.bordure {
+  background: #EFEFEF url("../pics/bg-clair.gif") repeat-x bottom;
+  border-style: solid;
+  border-color: #efefef;
+  border-width: 0px 1px 1px 1px;
+  border-radius: 0px 0px 5px 5px !important;
+}
+.reportsearchform {
+  width: 100%;
+  background: #3A4146 url("../pics/bg-title.gif") repeat-x top;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid silver;
+  font-size: 120%;
+  margin: 0;
+  padding: 5px;
+  vertical-align: bottom;
+  font-weight: bold;
+}
+.reportSummary {
+  border: 3px solid #e4e4e4;
+  width: 550px;
+  height: 100px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  border-radius: 4px;
+  margin: 1em auto;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.reportSummary h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    display: inline;
+}
+.reportSummary span.stat {
+  line-height: normal;
+  height: 30px;
+  font-size: 85%;
+  font-style: italic;
+}
+.reportSummary h3.processed, .reportSummary span.processed { color: #88D4E3 !important; }
+.reportSummary h3.fullaligned, .reportSummary span.fullaligned { color: #8ED49C !important; }
+.reportSummary h3.failed, .reportSummary span.failed { color: #E6735C !important; }
+
+h1 {
+	text-align: center;
+}
+
+table.reportlist {
+	margin: 2em auto 2em auto;
+	border-collapse: collapse;
+  color: #585880;
+}
+
+table.reportlist td, table.reportlist th {
+	padding:3px;
+}
+
+table.reportlist thead {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+
+}
+table.reportlist tbody tr:first-child td {
+	padding-top: 10px;
+}
+
+table.reportlist a { color: #6464ff; text-decoration: none; }
+table.reportlist a:hover { color: #6464ff; text-decoration: underline; }
+
+.reportdesc {
+	font-weight: bold;
+	border-top: 2px solid grey;
+	width: 90%;
+  color: #000000;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+table.reportdata {
+	margin: 2em auto 2em auto;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+table.reportdata tr th, table.reportdata tr td {
+	text-align: center;
+	padding: 3px;
+}
+
+table.reportdata tr.red {
+	background-color: #FF0000;
+}
+
+table.reportdata tr.orange {
+	background-color: #FFA500;
+}
+
+table.reportdata tr.lime {
+	background-color: #00FF00;
+}
+
+table.reportdata tr.yellow {
+	background-color: #FFFF00;
+}
+
+.footer {
+	font-size: 70%;
+	text-align: center;
+	border-top: 2px solid grey;
+	width: 90%;
+	margin: 2em auto 1em auto;
+	padding-top: 10px;
+}
+
+.right {
+	text-align:right;
+}
+
+.center {
+	text-align:center;
+}
+
+.import_report {
+	text-align: center;
+}
+
+.message.success {
+	text-align: center;
+	color: green;
+}
+
+.message.error {
+	text-align: center;
+	color: red;
+}
